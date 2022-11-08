@@ -3,7 +3,7 @@
 # 0  1  2  3  4
 # -5 -4 -3 -2 -1
 #immutable strings
-
+#Char is a 1 size string bcz py doesn't has char datatype
 greet ="heyy "
 name="pikachu"
 
