@@ -15,3 +15,7 @@ bo2=False
 print("and use:",(bo1 and bo2))
 print("or use:",(bo1 or bo2))
 print("not use:",(not bo2))
+
+#tuple ka values variables mai
+# fruits = ["apple", "banana", "cherry"]
+# x, y, z = fruits
