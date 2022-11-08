@@ -19,3 +19,10 @@ print("not use:",(not bo2))
 #tuple ka values variables mai
 # fruits = ["apple", "banana", "cherry"]
 # x, y, z = fruits
+
+# Identity Operators
+#used to compare the objects, not if they are equal ==
+#but if they are actually same object, with same memory location
+
+x is y # OR x=y (clone kr dega and same memory location)
+x is not y
