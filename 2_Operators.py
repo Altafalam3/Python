@@ -24,5 +24,8 @@ print("not use:",(not bo2))
 #used to compare the objects, not if they are equal ==
 #but if they are actually same object, with same memory location
 
-x is y # OR x=y (clone kr dega and same memory location)
-x is not y
+y=34
+x=y #(clone kr dega and same memory location)
+
+Print(x is y)
+print(x is not y)
