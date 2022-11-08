@@ -12,6 +12,8 @@ c=greet+name
 print(c)
 print(c[10])
 
+#String and number cannot concat in py
+
 #[1:] 1 to end
 #[:3] start0 to 2
 #slice from 0 to 3
