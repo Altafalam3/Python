@@ -1,5 +1,5 @@
-a=4
-b=3
+#Multiple variable declare same line
+a,b=4,3
 
 print("add is:",a+b)
 print("mult is:",a*b)
