@@ -30,6 +30,7 @@ print(type(b))
 #typecasting
 a="345"
 a=int(a)
+b=str(3) #typecasting it to '3'
 
 #a=str(a) #typecasting str from int
 print(a+5)
