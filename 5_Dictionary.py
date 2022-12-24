@@ -1,4 +1,4 @@
-#It collection of keys-values pairs
+#It is collection of keys-values pairs
 
 dict = {
    "altaf" : "coder" ,

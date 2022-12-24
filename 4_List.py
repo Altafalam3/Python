@@ -53,5 +53,6 @@ t4= int(input("enter :"))
 
 t=[t1,t2,t3,t4]
 print(t)
-#sum of all element of list
+#sum of all element of listyayyyyyyyeeeeeeeeee no formalss
+
 print(sum(t))
