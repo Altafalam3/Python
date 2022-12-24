@@ -2,7 +2,7 @@ import random
 
 #random number generating
 num=random.randint(1,100)
-print(num)
+# print(num)
 
 guess=None
 guesses=0

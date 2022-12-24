@@ -6,9 +6,9 @@ import webbrowser
 import os
 import smtplib
 
-engine = pyttsx3.init('sapi5')
-voices = engine.getProperty('voices')
-#0 is for male,1 is female voice
+engine = pyttsx3.init('sapi5')  # speech API.
+voices = engine.getProperty('voices')  # all voices
+# 0 is for male,1 is female voice
 # print(voices[0].id)
 engine.setProperty('voice', voices[0].id)
 
@@ -62,10 +62,10 @@ def sendEmail(to, content):
     server.close()
 
 
+# level 0 indentation, executed, special variables __name__ main
 if __name__ == "__main__":
     wishMe()
     while True:
-        # if 1:
         query = takeCommand().lower()
 
         # Logic for executing tasks based on query
@@ -93,7 +93,7 @@ if __name__ == "__main__":
             os.startfile(os.path.join(music_dir, songs[0]))
 
         elif 'the time' in query:
-           #formmatting the time
+           # formmatting the time
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"Sir, the time is {strTime}")
 
@@ -111,3 +111,7 @@ if __name__ == "__main__":
             except Exception as e:
                 print(e)
                 speak("Sorry my friend Altaf bhai. I am not able to send this email")
+
+        # exit loop
+        elif 'close program' in query:
+            exit()
