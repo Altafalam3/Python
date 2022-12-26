@@ -8,7 +8,7 @@ guess=None
 guesses=0
 flag=False
 
-print("You have 10 guesses to guess the correct number..")
+print("You have 10 chances to guess the correct number..")
 
 while guess!=num and guesses<10 :
    guess=int(input("Enter the guess number: "))
